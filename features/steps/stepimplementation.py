@@ -8,7 +8,7 @@ from Utilities.resources import *
 def step_impl(context):
     context.url = getconfig()['API']['endpoint'] + apiresources.addbook
     context.headers = {"Content-Type":"application/json"}
-    context.addBookPayload = addBookPayload("FGHJ","3256")
+    context.addBookPayload = addBookPayload("MNBL","3256")
 
 @when('Execute the AddBook PostAPI method')
 def step_impl(context):

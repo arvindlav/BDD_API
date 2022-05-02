@@ -1,0 +1,31 @@
+[ {
+  "uid" : "968e48b290b75b36",
+  "name" : "Verify AddBook API functionality -- @1.1 ",
+  "time" : {
+    "start" : 1651499456172,
+    "stop" : 1651499456678,
+    "duration" : 506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea48f8bf9e039c53",
+  "name" : "Verify AddBook API functionality -- @1.2 ",
+  "time" : {
+    "start" : 1651499456682,
+    "stop" : 1651499457207,
+    "duration" : 525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e7915b0c0cf5c49",
+  "name" : "Verify AddBook API functionality",
+  "time" : {
+    "start" : 1651499455627,
+    "stop" : 1651499456167,
+    "duration" : 540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,112 @@
+{
+  "uid" : "968e48b290b75b36",
+  "name" : "Verify AddBook API functionality -- @1.1 ",
+  "fullName" : "Verify if Books are added and deleted using Library API: Verify AddBook API functionality",
+  "historyId" : "a687cce520affd163b1b7b54354eac08",
+  "time" : {
+    "start" : 1651499456172,
+    "stop" : 1651499456678,
+    "duration" : 506
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Book Details with wscx and 2013",
+      "time" : {
+        "start" : 1651499456176,
+        "stop" : 1651499456179,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Execute the AddBook PostAPI method",
+      "time" : {
+        "start" : 1651499456179,
+        "stop" : 1651499456373,
+        "duration" : 194
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then Book is successfully added",
+      "time" : {
+        "start" : 1651499456374,
+        "stop" : 1651499456376,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "library"
+  }, {
+    "name" : "feature",
+    "value" : "Verify if Books are added and deleted using Library API"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "aisle",
+    "value" : "2013"
+  }, {
+    "name" : "isbn",
+    "value" : "wscx"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "library" ]
+  },
+  "source" : "968e48b290b75b36.json",
+  "parameterValues" : [ "2013", "wscx" ]
+}
